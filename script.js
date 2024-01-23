@@ -16,10 +16,49 @@
 // Copy the value from name to admin.
 // Show the value of admin using alert (must output “John”).
 
-let admin, name; // can declare two variables at once
+// let admin, name; // can declare two variables at once
 
-name = "John";
+// name = "John";
 
-admin = name;
+// admin = name;
 
-alert( admin );
+// alert( admin );
+
+// importance: 3
+// Create a variable with the name of our planet. How would you name such a variable?
+// Create a variable to store the name of a current visitor to a website. How would you name that variable?
+
+// const planetName = "Earth"
+// const currentVisitor = "wah van"
+
+// const birthday = '18.04.1982';
+
+// const age = someCode(birthday);
+
+// alert( 1 / 0 );
+
+// alert( NaN ** 0 )
+
+// alert( `Hello, ${name}!` );
+
+// alert( `the result is ${1 + 2}` ); 
+
+
+importance: 5
+What is the output of the script?
+
+let name = "Ilya";
+
+alert( `hello ${1}` ); // ?
+
+alert( `hello ${"name"}` ); // ?
+
+alert( `hello ${name}` ); // 
+
+let age = prompt('How old are you?');
+
+alert(`You are ${age} years old!`); 
+
+let isBoss = confirm("Are you the boss?");
+
+alert( isBoss );
