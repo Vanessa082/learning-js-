@@ -44,21 +44,93 @@
 // alert( `the result is ${1 + 2}` ); 
 
 
-importance: 5
-What is the output of the script?
+// importance: 5
+// What is the output of the script?
 
-let name = "Ilya";
+// let name = "Ilya";
 
-alert( `hello ${1}` ); // ?
+// alert( `hello ${1}` ); // ?
 
-alert( `hello ${"name"}` ); // ?
+// alert( `hello ${"name"}` ); // ?
 
-alert( `hello ${name}` ); // 
+// alert( `hello ${name}` ); // 
 
-let age = prompt('How old are you?');
+// let age = prompt('How old are you?');
 
-alert(`You are ${age} years old!`); 
+// alert(`You are ${age} years old!`); 
 
-let isBoss = confirm("Are you the boss?");
+// confirm synthax
 
-alert( isBoss );
+// let isBoss = confirm("Are you the boss?");
+
+// alert( isBoss );
+// task
+// let quesTion = prompt("what is your name");
+// alert(quesTion);
+
+// Basic operators, maths
+
+
+// let theNumber = Number(prompt("Pick a number"));
+// if (!Number.isNaN(theNumber)) {
+// console.log("Your number is the square root of " +
+// theNumber * theNumber);
+// }
+
+// the result of 2 to the power 10
+
+// let result = 1;
+// let count = 0;
+// while(count < 10){
+// result = result * 2;
+// count = count + 1
+// }
+
+// 
+// let result = 1;
+// for(let i = 0; i < 10; i++){
+// result = result * 2
+// }
+
+// console.log(result)
+
+// for (let i = 20;  i = i ; i++) {
+//     if (i % 7 == 0) {
+//     console.log(i);
+//     break;
+//     }
+//     }
+//     // →
+
+//   Write a loop that makes seven calls to console.log to output the following triangle:
+
+// let triangle = "";
+// for (let i = 0; i < 7; i++) {
+//     triangle += "#"
+//     console.log(triangle)
+// }
+
+// FizzBuzz
+// Write a program that uses console.log to print all the numbers from 1
+// to 100, with two exceptions. For numbers divisible by 3, print "Fizz"
+// instead of the number, and for numbers divisible by 5 (and not 3), print
+// "Buzz" instead.
+// When you have that working, modify your program to print "FizzBuzz
+// " for numbers that are divisible by both 3 and 5 (and still print "Fizz"
+// or "Buzz" for numbers divisible by only one of those).
+// (This is actually an interview question that has been claimed to weed
+// out a significant percentage of programmer candidates. So if you solved
+// it, your labor market value just went up.)
+
+// for (let i = 1; i <= 100; i += 1) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("FizzBuzz")
+//     } else if (i % 3 === 0) {
+//         console.log("Fizz")
+//     } else if (i % 5 === 0) {
+//         console.log("Buzz")
+//     } else {
+//         console.log(i)
+//     }
+// }
+
